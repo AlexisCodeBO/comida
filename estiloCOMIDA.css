@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	box-sizing: border-box;
+}
+#contenedor{
+	width: 990px;
+	margin: 0 auto;
+}
+body{
+	background-image: url('fondo.jpg');
+}
+header{
+	margin-top: 2em;
+	background-color: #F5B041;
+    color: yellow;
+	font-size: 18pt;
+	padding: 1em;
+	border-radius: 15px;
+	margin-bottom: 1em;
+	background-image: url('cliente.jpg');
+	background-size: cover;
+}
+header, section, footer{
+	float: left;
+	width: 100%;
+}
+section aside{
+	float: left;
+	width: 25%;
+	background-color: black;
+	margin-right: 1em;
+	border-radius: 10px;
+}
+section section{
+	float: right;
+	width: 70%;
+	margin-bottom: 8em;
+	background-color: #D0D3D4;
+	
+}
+
+section aside ul{
+	list-style-type: none;
+}
+section aside ul a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: brown;
+	text-align: center;
+	padding: .75em;
+}
+section aside ul a:hover{
+	background-color: #2ECC71;
+	color: black  ;
+}
+section{
+	margin-bottom: 2em;
+}
+section section {
+	padding: .5em;
+}
+section section article h2{
+	text-align: center;
+}
+section section article p{
+	line-height: 170%;
+}
+footer{
+	padding: .75em;
+	background-color: #F5B041;
+	border-radius: 15px;
+}
